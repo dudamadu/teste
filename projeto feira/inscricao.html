@@ -2,11 +2,37 @@
 	<head>
 		<meta charset="utf-8"></meta>
 		<title>Projeto feira</title>
+		<style>
+			html{
+			background-image:  url("tumblr.jpg");	
+			  height: 100%;
+			}
+		   #container{
+		    /*background-color: yellow;*/
+			height: 100%; /*altura*/
+			 width: 60%; /*largura*/
+			 margin: 0px auto 0px auto;
+			 border-color: black;
+			 border-style: solid;
+             border-width: 2px;	
+             text-align: center;			 
+			 
+		   }
+		   #txt_name{
+		      border-width: 5px;
+              width: 90%; /*largura*/	  
+            }
+           #txt_codigo{		  
+              border-width: 2px;
+              width: 20%; /*largura*/
+          	}			  
+		   </style>
 	</head>
 
 <body>
+     <div id="container">
     <center>Inscriçao para o centro de interesse</center>
-	<form idaction="index.html" method="post"> 
+	<form action="index.html" method="post"> 
 	<center>Nome:<br /></center>
 	<center><input type="text" id="nome_do_usuario"/><br /></center>
 	<center>Codigo do aluno:<br /></center>
@@ -35,7 +61,7 @@
 		
 		<input type="submit" name="botao_entrar" value="Entrar"/> 
 	</form>
-
+     </div>	
 
 </body>
 
