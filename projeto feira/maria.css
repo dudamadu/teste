@@ -1,0 +1,28 @@
+html{
+
+}
+
+h4{																																																																												
+	width: 150px;
+	display: inline-block;
+	text-align: right;
+	margin: 4px 5px 4px 5px;
+}
+#container{
+	background-color: Orange;
+	height: 100%; /*altura*/
+	width: 60%; /*largura*/
+	margin: 0px auto 0px auto;
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+	text-align: center;	
+}
+#txt_name{
+  border-width: 5px;
+  width: 90%; /*largura*/	  
+}
+#txt_codigo{		  
+  border-width: 2px;
+  width: 20%; /*largura*/
+}			  
