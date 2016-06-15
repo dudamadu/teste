@@ -8,20 +8,31 @@
 	</head>
 
 <body>
-    <div id="container">
+    <div id="container" class="container" >
 		<h1>Alteração do CI</h1>
-		
-		<h4>Alterar centro de interesse</h4>
-		
-   		<select id="centro" >
-	        <option value="opção1">Opção</option>
-			<option value="musica">Musica</option>
-			<option value="radio">Radio</option>
-			<option value="danca">Dança</option>
-			<option value="programacao">Programacao</option>
-		</select>
-		
 		<form action="index.html" method="post">
+		
+		
+		
+		<div class="row form-group">
+			<div class="col-md-4">
+  				<label for="usr">Alterar centro de interesse:</label>
+  			</div>
+  			<div class="col-md-8">
+	 			<select id="centro" class="form-control" >
+			        <option value="opção1">Opção</option>
+					<option value="musica">Musica</option>
+					<option value="radio">Radio</option>
+					<option value="danca">Dança</option>
+					<option value="programacao">Programacao</option>
+				</select>
+			</div>
+		</div>
+		
+		
+   		
+		
+		
 			
 			<h4>Horario de Inicio: </h4> <input type="text" id="Horario de Inicio"/><br />
 			<h4>Horario de Termino: </h4>  <input type="text" id="Horario de Termino"/><br />

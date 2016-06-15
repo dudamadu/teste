@@ -4,6 +4,10 @@ html, body {
 	height: 100%;
 }
 
+label{
+	font-size: 18px;
+}
+
 #cabecalho{
 	background:blue;
 	height:10%;
