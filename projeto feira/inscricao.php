@@ -16,4 +16,12 @@
 	
 	$banco = mysql_select_db($nome_banco, $conexao);
 	
+	/*verifica se a conexao realmente foi criada*/
+	/*se (conexao) entao, ou seja, conexao e falsa*/
+	if (!$conexao) {
+		echo "nao foi possivel conectar ao banco MYSQL.";
+		exit;
+	}else{/*senao*/
+		echo " conectou!";
+	}
 ?>
