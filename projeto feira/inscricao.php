@@ -29,7 +29,17 @@
 	/*Selecione o banco de dados ou morra*/
 	$banco = mysql_select_db($nome_banco, $conexao) or die ("Não foi possível conectar ao banco de dados");
 	
+	$comandosql = "INSERT INTO tb_inscricao VALUES ('',$codigo, '$nome', '3 EMI', 1, 2, '2016-08-24', '07:10:00')";
 	
+	echo $comandosql;
+	
+	$resultado = mysql_query($comandosql);
 	/*Encerra a conexao*/
+	
+	if (mysql_errno()) { 
+	  $error = "MySQL error ".mysql_errno().": ".mysql_error()."\n<br>Quando executou:<br>\n$comandosql\n<br>"; 
+	  echo $error; 
+	} 
+	
 	mysql_close();
 ?>
