@@ -16,7 +16,7 @@ h4{
 #container{
 	background-color: #00E5EE;
 	height: 100%; /*altura*/
-	width: 100%; /*largura*/
+	width: 90%; /*largura*/
 	margin: 0px auto 0px auto;
 	text-align: center;	
 }

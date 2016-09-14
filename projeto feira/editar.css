@@ -1,0 +1,18 @@
+border-style:double ;
+  	border-width: 10px;
+  }
+ +#admin{
+ +	text-align: center;
+ +}
+  #txt_name{
+  	border-width: 1px;
+  	border-color: black;
+ @@ -44,7 +47,7 @@ width: 70%; /*largura*/
+  	border-width: 1px;
+  	text-align: center;
+  	}
+ -	#txt_Qvagas{
+ +#txt_Qvagas{
+  	border-width: 1px;
+  	border-color: black;
+  	text-align: center ;
